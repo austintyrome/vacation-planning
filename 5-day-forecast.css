@@ -1,0 +1,9 @@
+#nav-bar{
+    background-color: blue;
+    color: antiquewhite;
+display: flex;
+}
+.nav-weather{
+    text-align: right;
+    padding: 0%;
+}

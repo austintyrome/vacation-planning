@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Page</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"
+  ></script>
+    <link rel="stylesheet" href="./5-day-forecast.css">
+</head>
+<body>
+    <!-- I need a nav bar with the name of the page -->
+    <nav id="nav-bar">
+        <h1 class="nav-weather">Weather Forecast</h1>
+    </nav>
+    <!-- a side coloum with a search bar and button and list of cities -->
+    <form id="search-form">
+        <input class="search-input" type="text" placeholder="Search City Here">
+        <button id="search-bttn">Search</button>
+    </form>
+    <!-- I need to display the weather for the searched city -->
+    <h2 id="old-cities"></h2>
+    <!-- I need to display a 5 day for cast for the city that was searched -->
+    <h3 id="forecast"></h3>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./5-day-forecast.js"></script>
+</body>
+</html>
