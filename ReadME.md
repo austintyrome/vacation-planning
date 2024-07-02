@@ -29,6 +29,7 @@ THEN I am again presented with current and future conditions for that city
 ## Authors
 
 * **Austin Godfrey** - [austintyrome](https://github.com/austintyrome)
+* Repo https://github.com/austintyrome/vacation-planning
 
 ## Licenses
 
