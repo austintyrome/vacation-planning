@@ -1,5 +1,9 @@
-# 5 day forecast
+# Vaction Planning
 
+## 5 day forecast
+```
+When planning a vaciton after deciding where to go is deciding what to wear. With a 5 day forecast you can plan your trip so you aren't getting caught in the rain without your Pina Colada!
+```
 ## User Story
 
 ```
